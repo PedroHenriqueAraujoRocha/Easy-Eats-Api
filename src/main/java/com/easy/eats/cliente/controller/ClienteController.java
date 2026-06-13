@@ -61,6 +61,5 @@ public class ClienteController {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.notFound().build();
-    }
-    
+    }   
 }

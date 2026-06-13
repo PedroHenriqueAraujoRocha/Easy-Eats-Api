@@ -11,6 +11,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -33,7 +34,4 @@ public class Mesa {
 
     @OneToMany(mappedBy = "mesa", cascade = CascadeType.ALL)
     private List<Venda> vendas;
-
-    
-
 }

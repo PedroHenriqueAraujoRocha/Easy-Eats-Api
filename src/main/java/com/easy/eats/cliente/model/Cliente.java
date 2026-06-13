@@ -1,8 +1,5 @@
 package com.easy.eats.cliente.model;
 
-import org.hibernate.annotations.ManyToAny;
-import org.hibernate.annotations.OnDelete;
-
 import com.easy.eats.endereco.model.Endereco;
 import com.easy.eats.pedido.model.Pedido;
 
@@ -10,9 +7,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
